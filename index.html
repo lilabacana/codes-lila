@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu inicial</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div>
+        <img src="style/img/airplanecat.png">
+        <h2>Locais que eu <br> gostaria de conhecer</h2>
+        <h4>(Anna Vitoria da Silva Martins)</h4>
+        <ul>
+            <li><a href="japao.html">Japão</a></li><br>
+            <li><a href="coreia.html">Coreia do Sul</a></li><br>
+            <li><a href="eua.html">Estados Unidos</a></li><br>
+            <li><a href="frança.html">França</a></li><br>
+        </ul>
+    </div>
+</body>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif; 
+        background-color: rgb(226, 195, 255);
+        font-family: poppins;
+    }
+    div{
+        width: 290px;
+        height: 420px;
+        position: absolute; 
+        top: 300px; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        display: grid;
+        justify-items: center;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0px 35px 80px rgba(44, 44, 44, 0.329);
+    }
+    img{
+        width: 150px; 
+        height: 150px;
+        margin-top: 20px;
+    }
+    h2{
+        margin-top: 5px;
+        text-align: center;
+        font-family: poppinsbold;
+        font-size: 22px;
+    }
+    h4{
+        margin-top: -15px;
+    }
+    ul{
+        margin-top: -10px;
+        margin-left: -15px;
+        line-height: 14px;
+    }
+    li{
+        transition: 0.5s;
+    }
+    li:hover{
+        color: rgb(167, 12, 214);
+        transition: 0.5s;
+    }
+    a{
+        font-size: 17px;
+        color: black;
+        transition: 0.5s;
+    }
+    a:hover{
+        color: rgb(167, 12, 214);
+        transition: 0.5s;
+    }
+    @font-face {
+        font-family: poppins;
+        src: url(style/fonts/Poppins-Medium.ttf);
+    }
+    @font-face {
+        font-family: poppinsbold;
+        src: url(style/fonts/Poppins-Bold.ttf);
+    }
+</style>
+</html>

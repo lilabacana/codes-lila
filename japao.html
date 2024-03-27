@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Japão</title>
+</head>
+<header>
+    <a href="index.html">Menu inicial</a> 
+    <a href="coreia.html">Próximo</a>
+</header>
+<body>
+    <div class="painel">
+        <nav class="titulo">
+        <h2>Japão</h2>
+        <img src="style/img/bandeirajapao.png" alt="">
+        </nav>
+        <p>Este país possui uma paisagem natural que é fascinante. O adjetivo estende-se também para o cenário industrial do país. As áreas ao redor de Tóquio estão cheias de efeitos visuais, mas algo interessante é o complexo industrial de Shunan. Tours de barco levam os passageiros para os melhores pontos para tirar fotos ou existe a possibilidade de pegar o ferry boat para a ilha Otsu e ir fazendo registros durante o trajeto. Fazer fotos de um complexo industrial é outro ponto, pois possui uma arquitetura pesada lindamente iluminada contra o céu escuro. O Japão é um lugar onde o antigo se mistura ao novo, onde o tradicional se junta ao moderno e bizarro, onde o natural se une ao industrial. E, de alguma forma, essas misturas funcionam. É um revigoramento culturala.</p>
+        <p>A mãe natureza realmente sorriu para o Japão e o abençoou com lindas vistas. Pode-se conhecer o Monte Fuji na primavera ou no verão e visite as famosas cerejeiras em março ou abril. Por outro lado, o Japão é o lugar para abraçar e amar coisas estranhas. Se você gosta de algum tipo de animal peludo, provavelmente existe um cafeteria temática para ele em alguma cidade japonesa. Na verdade, restaurantes temáticos são bem comuns por lá. O Robot Restaurant, em Tóquio, por exemplo, é parada obrigatória para os fãs – ou não – dos Transformers. Existem também os hotéis em cápsula. Estes podem até receber classificação cinco estrelas.</p>
+        <p>Um dos principais motivos para ir ao Japão é culinária, a qual significa uma parte importante da cultura do país, algo que os japoneses abraçam como item essencial da vida. Se existem bonecas Hello Kitty, existe comida em forma de Hello Kitty. O arroz funciona como o material perfeito para criar pratos lindos. Existem até animais de arroz, como ursos pandas e polares. Embora o sushi fresco seja umas das principais essencias da culinária local ou uma tradicional tigela de lámen, há muito mais na gastronomia japonesa. No verdadeiro espírito da culinária asiática moderna, muitos restaurantes disponibilizam réplicas de plástico muito realistas em vitrines ou prateleiras, para que você saiba exatamente como será o prato. Nota-se, ainda mais, o Ryōtei, um tipo luxuoso e tradicional de restaurante. Outra possibilidade é explorar os muitos vendedores de comida espalhados pelas ruas.</p>
+        <div class="imgs">
+            <img src="style/img/tokyo.jpg" alt="">
+            <img src="style/img/cerejeiras.jpg" alt="">
+            <img src="style/img/comidajaponesa.jpg" alt="">
+        </div>
+        <div class="content">
+            <h5>Exemplificação de ruas</h5>
+            <h5>Árvores de cerejeira</h5>
+            <h5>Comida japonesa</h5>
+        </div>
+    </div>
+</body>
+<footer>
+    <ul>
+        <li><a href="japao.html">Voltar ao topo</a></li><br>
+        <li><a href="https://forbes.com.br/forbeslife/2017/03/7-motivos-para-conhecer-o-japao/#foto2">Referências</a></li>
+    </ul>
+</footer>
+<style>
+    header{
+        display: flex; 
+        justify-content: space-between;
+        margin-left: 440px;
+        margin-bottom: 30px;
+    }
+    a{
+        color: black;
+        transition: 0.5s;
+        background-color: white;
+        border-color: white;
+        border-style: solid;
+        border-width: 8px;
+        border-radius: 20px;
+    }
+    a:hover{
+        color: rgb(167, 12, 214);
+        transition: 0.5s;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: grid;
+        justify-content: center;
+        text-align: justify;
+        font-family: poppins; 
+        margin: 100px; 
+        font-size: 17px;
+        background-color: rgb(226, 195, 255);
+    }
+    .painel{
+        width: 1000px;
+        height: 1270px;
+        background-color: white;
+        border-radius: 25px;
+        box-shadow: 0px 35px 80px rgba(44, 44, 44, 0.329);
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        margin-inline: 790px;
+        margin-left: 1px;
+    }
+    nav img{
+        width: 60px;
+        height: 40px;
+        margin-top: 38px;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: rgba(82, 82, 82, 0.589);
+        border-width: 1.5px;
+    }
+    h2{
+        margin-left: 50px;
+        padding-top: 20px;
+        font-family: poppinsbold;
+    }
+    p{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .imgs{
+        display: flex; 
+        justify-content: space-around;
+        margin-inline: 200px;
+        margin-top: 30px;
+        margin-inline: 30px;
+    }
+    img{
+        border-radius: 20px; 
+        width: 300px; 
+        height: 390px;
+    }
+    .content{
+        display: flex; 
+        justify-content: space-around;
+        text-align: center;
+        margin-inline: 15px;
+        margin-bottom: 50px;
+    }
+    h5{
+        margin-left: -35px;
+    }
+    footer{
+        text-align: center; 
+        margin-top: 30px;
+        margin-left: -50px;
+    }
+    ul{
+        list-style: none;
+    }
+    @font-face {
+        font-family: poppins;
+        src: url(style/fonts/Poppins-Medium.ttf);
+    }
+    @font-face {
+        font-family: poppinsbold;
+        src: url(style/fonts/Poppins-Bold.ttf);
+    }
+</style>
+</html>
